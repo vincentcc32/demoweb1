@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/resetcss.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+        integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ta Cong Cuong</title>
+    <!--[if lte IE 9]>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js" integrity="sha512-i/6nAYMMwXZ3dTsq+ngdkSl4MbtVQF0FdCeqP5/1HSXPxyEd43vrxhafg1P4iqKRAnZVHn48GYaFUYRcTB0YrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <![endif]-->
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <nav class="header__nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-6 col-md-6 col-xl-6 header__nav-logo">
+                            <a href="#" class="header__nav-logo-link"> <img src="./asset/img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="col-lg-2 header__nav-item hide-on-low-pc">
+                            <a href="#home"
+                                class="header__nav-logo-item-link header__nav-logo-item-link--active">Home</a>
+                        </div>
+                        <div class="col-lg-2 header__nav-item hide-on-low-pc">
+                            <a href="#collection" class="header__nav-logo-item-link">Collection</a>
+                        </div>
+                        <div class="col-lg-2 header__nav-item hide-on-low-pc">
+                            <a href="#about" class="header__nav-logo-item-link">About</a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6">
+                            <div class="header__sider">
+                                <input type="checkbox" hidden name="" id="header__sider-input">
+                                <label for="header__sider-input" class="fa-solid fa-bars header__sider-icon"></label>
+                                <label for="header__sider-input" class="header__sider-overlay"></label>
+                                <div class="header__sider-wrap">
+                                    <ul class="header__sider-list">
+                                        <li class="header__sider-item">
+                                            <a href="#home" class="header__sider-link">Home</a>
+                                        </li>
+                                        <li class="header__sider-item">
+                                            <a href="#collection" class="header__sider-link">Collection</a>
+                                        </li>
+                                        <li class="header__sider-item">
+                                            <a href="#about" class="header__sider-link">About</a>
+                                        </li>
+                                        <li class="header__sider-item">
+                                            <a href="#" class="header__sider-link">Account</a>
+                                        </li>
+                                        <label for="header__sider-input"
+                                            class="header__sider-list-icon fa-solid fa-xmark"></label>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <div id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <h1 class="home__heading1">Portfolio laptop component</h1>
+                        <h2 class="home__heading2">Single component</h2>
+                        <p class="home__text">You can use the following component and replace the url of the video in
+                            the HTML Embed code.
+                        </p>
+                        <div class="home__screen">
+                            <img src="./asset/img/macbook.png" alt="" class="home__img">
+                            <video src="./asset/video/videomain.mp4" type="video/mp4" class="home__video" autoplay loop
+                                muted>
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="button-see">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <input type="checkbox" hidden name="" id="button-see__checkbox-1" class="">
+                        <label for="button-see__checkbox-1" class="button-see__btn button-see__btn--active">
+                            <span>
+                                See instructions
+                                <i class="button-see__btn-icon fa-solid fa-chevron-down"></i>
+                            </span>
+                        </label>
+                        <div class="button-see__btn">
+                            <span>Hide instructions</span>
+                            <i class="button-see__btn-icon fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="button-see__btn-content">
+                            <h3>How to use it</h3>
+                            <h4>Step 1: Take a screen video of your project</h4>
+                            <p>Videos should have 16:9 aspect ratio and recommended dimensions of 600px x 338px.</p>
+                            <h5>Useful tools:</h5>
+                            <div class="button-see__step1">
+                                <h6>OBS Studio</h6>
+                                <p>You can use it to record your screen</p>
+                                <a href="#">https://obsproject.com/es</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="collection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <h2>Porfolio CMS Collection</h2>
+                        <p>The following CMS collection has the same component but adding the functionality to make the
+                            url dynamic, placing the urls of the videos corresponding to each project in the
+                            corresponding field.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video1.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 1</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video2.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 2</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video3.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 3</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video4.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 4</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video5.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 5</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12 col-xl-6">
+                        <div class="collection__video-demo">
+                            <div class="collection__video">
+                                <video src="./asset/video/video6.mp4" autoplay loop muted></video>
+                                <img src="./asset/img/macbook.png" alt="">
+                            </div>
+                            <h3>Demo 6</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="button-see">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <input type="checkbox" hidden name="" id="button-see__checkbox-2" class="">
+                        <label for="button-see__checkbox-2" class="button-see__btn button-see__btn--active">
+                            <span>
+                                See instructions
+                                <i class="button-see__btn-icon fa-solid fa-chevron-down"></i>
+                            </span>
+                        </label>
+                        <div class="button-see__btn ">
+                            <span>Hide instructions</span>
+                            <i class="button-see__btn-icon fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="button-see__btn-content">
+                            <h3>How to use it</h3>
+                            <h4>Step 1: Take a screen video of your project</h4>
+                            <p>Videos should have 16:9 aspect ratio and recommended dimensions of 600px x 338px.</p>
+                            <h5>Useful tools:</h5>
+                            <div class="button-see__step1">
+                                <h6>OBS Studio</h6>
+                                <p>You can use it to record your screen</p>
+                                <a href="#">https://obsproject.com/es</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <div class="about__content">
+                            <h2>Share this!</h2>
+                            <div class="about__contact">
+                                <div class="about__contact-fb">
+                                    Facebook
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                                <div class="about__contact-insta">
+                                    Instagram
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <div class="about__text1">
+                            <h2>About this</h2>
+                            <p>This project was created by <a href="#">Tito Solano</a> and the Impulso Studio team,
+                                contact me at <a href="mailto:tacongcuong32@gmail.com">titosolano@impulsocr.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <div class="about__text2">
+                            <h2>Who we are?</h2>
+                            <p>We are web design shop based in Costa Rica, who loves to innovate and get involved in
+                                challenging projects. If you want to talk to us, feel free to write to
+                                <a href="mailto:tacongcuong32@gmail.com"> info@impulsocr.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <div class="footer__logo">
+                            <a href="#"> <img src="./asset/img/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 col-xl-12">
+                        <div class="footer__text">
+                            <a href="https://cms-porfolio-laptop-with-video.webflow.io/#cms-collection"
+                                target="_blank">www.impulsostudio.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

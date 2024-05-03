@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #d1d1d1;
+    --header-color: #252323;
+    --main-color: #282626;
+    --heading-color: #ececec;
+    --hover-color: #27b3ab;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+/* button  */
+
+.button-see__btn span {
+    padding: 16px 32px;
+    background-color: #252323;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin: 0 auto;
+    border: 1px solid #363636;
+    box-shadow: 0 14px 20px -8px rgba(0, 0, 0, 0.41);
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#button-see__checkbox-1:checked~.button-see__btn-content {
+    display: block;
+}
+
+#button-see__checkbox-2:checked~.button-see__btn-content {
+    display: block;
+}

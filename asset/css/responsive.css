@@ -1,0 +1,65 @@
+@media (min-width: 1024px) {}
+
+/* ipad  */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* mobile  */
+@media (max-width:739px) {
+    .open-on-mobile {
+        display: block;
+    }
+
+    .home__heading1 {
+        font-size: 4.6rem;
+    }
+
+    .home__heading1 {
+        font-size: 3.5rem;
+    }
+
+    .about__text1 h2 {
+        margin-left: 0;
+    }
+
+    .about__text2 h2 {
+        margin-left: 0;
+    }
+
+    .about__contact-fb,
+    .about__contact-insta {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+/*  */
+@media (max-width: 1023px) {
+    main {
+        padding-top: 40px;
+    }
+
+    #home {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hide-on-low-pc {
+        display: none;
+    }
+
+    .header__sider {
+        display: flex;
+    }
+
+    @keyframes fadeIn-sider {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+}
